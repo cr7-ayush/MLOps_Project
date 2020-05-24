@@ -22,7 +22,6 @@ train_y = to_categorical(train_y)
 
 model = Sequential()
 model.add(Dense(units = 20 , input_dim = 28*28 , activation = 'relu'))
-model.add(Dense(units=200 , input_dim = 28*28 , activation = 'relu'))
 model.add(Dense(units=60 , input_dim = 28*28 , activation = 'relu'))
 model.add(Dense(units=10 , input_dim = 28*28 , activation = 'softmax'))
 model.compile( optimizer= "Adam" , loss='categorical_crossentropy', 
