@@ -71,7 +71,7 @@ import smtplib
 s = smtplib.SMTP('smtp.gmail.com', 587)
 s.starttls()
 
-s.login("ayushkumar.tiwari@gmail.com", "burningdesire")
+s.login("1706309@kiit.ac.in", "9534869976")
 
 
     # message
@@ -79,7 +79,7 @@ message1 = "success"
     
 
     # sending the mail 
-s.sendmail("ayushkumar.tiwari@gmail.com", "1706309@kiit.ac.in", message1)
+s.sendmail("1706309@kiit.ac.in", "ayushkumar.tiwari@gmail.com", message1)
     
 
     # terminating the session 
