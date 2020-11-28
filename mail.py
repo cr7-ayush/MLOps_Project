@@ -2,7 +2,7 @@ import smtplib
 s = smtplib.SMTP('smtp.gmail.com', 587)
 s.starttls()
 
-s.login("ayushkumar.tiwari@gmail.com", "*************")
+s.login("ayushkumar.tiwari@gmail.com", "burningdesire")
 
 
     # message
